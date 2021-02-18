@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5526087108135836988}
   - component: {fileID: 5526087108135836991}
   - component: {fileID: 5526087108135836984}
+  - component: {fileID: 8659361726193274062}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -59,6 +60,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -83,6 +85,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!135 &5526087108135836988
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -112,6 +115,9 @@ MonoBehaviour:
   maxForce: 20
   minSpeed: 0.6
   LR: {fileID: 5526087108152618214}
+  shotTaken:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &5526087108135836984
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -128,6 +134,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &8659361726193274062
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5526087108135836990}
+  m_Material: {fileID: 13400000, guid: 013fd3d73b222424ba2e62498034846f, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.50000006
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5526087108152618217
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,6 +193,7 @@ LineRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
