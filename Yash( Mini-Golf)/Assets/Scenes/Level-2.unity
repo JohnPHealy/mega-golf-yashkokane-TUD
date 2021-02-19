@@ -1155,12 +1155,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 785615297}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &809410486 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7895862775156407960, guid: 5df6ce27f3f50684fbb35141971bede4,
-    type: 3}
-  m_PrefabInstance: {fileID: 2026407446}
-  m_PrefabAsset: {fileID: 0}
 --- !u!43 &826097127
 Mesh:
   m_ObjectHideFlags: 0
@@ -12959,6 +12953,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5df6ce27f3f50684fbb35141971bede4, type: 3}
+--- !u!114 &2026407447 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7895862775156407962, guid: 5df6ce27f3f50684fbb35141971bede4,
+    type: 3}
+  m_PrefabInstance: {fileID: 2026407446}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2029665298
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13181,7 +13187,7 @@ PrefabInstance:
         type: 3}
       propertyPath: shotTaken.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 809410486}
+      objectReference: {fileID: 2026407447}
     - target: {fileID: 5526087108135836991, guid: c7795a032ed6d564cb9996cf11df8bf3,
         type: 3}
       propertyPath: shotTaken.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -13195,7 +13201,7 @@ PrefabInstance:
     - target: {fileID: 5526087108135836991, guid: c7795a032ed6d564cb9996cf11df8bf3,
         type: 3}
       propertyPath: shotTaken.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: set_text
       objectReference: {fileID: 0}
     - target: {fileID: 5526087108135836991, guid: c7795a032ed6d564cb9996cf11df8bf3,
         type: 3}
