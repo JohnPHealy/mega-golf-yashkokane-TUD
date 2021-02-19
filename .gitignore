@@ -2,7 +2,6 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-<<<<<<< Updated upstream
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -10,15 +9,6 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
-=======
-Yash( Mini-Golf)/[Ll]ibrary/
-Yash( Mini-Golf)/[Tt]emp/
-Yash( Mini-Golf)/[Oo]bj/
-Yash( Mini-Golf)/[Bb]uild/
-Yash( Mini-Golf)/[Bb]uilds/
-Yash( Mini-Golf)/[Ll]ogs/
-Yash( Mini-Golf)/[Mm]emoryCaptures/
->>>>>>> Stashed changes
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
